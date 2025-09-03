@@ -1,4 +1,4 @@
-﻿namespace CoffeeMaker.Engine;
+﻿namespace CoffeeMaker.Engine.Components;
 
 public class Grinder
 {
