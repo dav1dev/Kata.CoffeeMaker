@@ -4,7 +4,7 @@ public class Class1
 {
 }
 
-public interface ICoffeeMaker
+public class Grinder
 {
     
 }
