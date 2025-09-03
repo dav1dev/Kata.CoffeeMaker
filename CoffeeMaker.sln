@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoffeeMaker.App", "CoffeeMaker.App\CoffeeMaker.App.csproj", "{E8EE1EE8-C068-48B6-80C8-227AA04B8006}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoffeeMaker.Engine", "CoffeeMaker.Engine\CoffeeMaker.Engine.csproj", "{E0248F70-1E56-4240-BC38-329EAF1F0040}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoffeeMaker.Facts", "CoffeeMaker.Facts\CoffeeMaker.Facts.csproj", "{CABC5647-D9B0-4818-93AA-A22A4B9E0FF8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoffeeMaker.Specs", "CoffeeMaker.Specs\CoffeeMaker.Specs.csproj", "{AA833C0C-B225-4E62-B65A-FD47349E3863}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E8EE1EE8-C068-48B6-80C8-227AA04B8006}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8EE1EE8-C068-48B6-80C8-227AA04B8006}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8EE1EE8-C068-48B6-80C8-227AA04B8006}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8EE1EE8-C068-48B6-80C8-227AA04B8006}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0248F70-1E56-4240-BC38-329EAF1F0040}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0248F70-1E56-4240-BC38-329EAF1F0040}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0248F70-1E56-4240-BC38-329EAF1F0040}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0248F70-1E56-4240-BC38-329EAF1F0040}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CABC5647-D9B0-4818-93AA-A22A4B9E0FF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CABC5647-D9B0-4818-93AA-A22A4B9E0FF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CABC5647-D9B0-4818-93AA-A22A4B9E0FF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CABC5647-D9B0-4818-93AA-A22A4B9E0FF8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA833C0C-B225-4E62-B65A-FD47349E3863}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA833C0C-B225-4E62-B65A-FD47349E3863}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA833C0C-B225-4E62-B65A-FD47349E3863}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA833C0C-B225-4E62-B65A-FD47349E3863}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
