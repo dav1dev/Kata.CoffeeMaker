@@ -26,4 +26,8 @@
         <Using Include="AwesomeAssertions"/>
     </ItemGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\CoffeeMaker.Engine\CoffeeMaker.Engine.csproj" />
+    </ItemGroup>
+
 </Project>
