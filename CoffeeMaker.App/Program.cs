@@ -10,3 +10,8 @@ var services =
 
 var coffeeMaker =
     services.GetRequiredService<ICoffeeMaker>();
+
+var coffee =
+    coffeeMaker.Brew(Recipe.Espresso);
+
+Console.WriteLine(coffee);
