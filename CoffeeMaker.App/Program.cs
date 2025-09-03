@@ -1,4 +1,4 @@
-﻿using CoffeeMaker.Engine;
+using CoffeeMaker.Engine;
 using Microsoft.Extensions.DependencyInjection;
 
 Console.WriteLine("Welcome to CoffeeMaker!");
