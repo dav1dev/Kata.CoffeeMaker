@@ -4,6 +4,6 @@ public class Heater
 {
     public string HeatTo(int temperatureInCelsius)
     {
-        return string.Empty;
+        return $"Heating to {temperatureInCelsius}°C";
     }
 }

@@ -4,6 +4,6 @@ public class Grinder
 {
     public string Grind(IEnumerable<Bean> beans, int grindSizeInMicrons)
     {
-        return string.Empty;
+        return $"Grinding {beans.Count()} beans to {grindSizeInMicrons} microns";
     }
 }

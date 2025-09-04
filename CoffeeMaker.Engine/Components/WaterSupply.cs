@@ -4,6 +4,6 @@ public class WaterSupply
 {
     public string Pump(int waterInMl)
     {
-        return string.Empty;
+        return $"Pumping {waterInMl}ml of water";
     }
 }
