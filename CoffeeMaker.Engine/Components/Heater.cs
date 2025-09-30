@@ -4,6 +4,10 @@ public class Heater
 {
     public string HeatTo(int temperatureInCelsius)
     {
-        return string.Empty;
+        ArgumentOutOfRangeException.ThrowIfLessThan(temperatureInCelsius, 40);
+        ArgumentOutOfRangeException.ThrowIfGreaterThan(temperatureInCelsius, 100);
+        
+        
+        return $"Heating to {temperatureInCelsius}°C";
     }
 }

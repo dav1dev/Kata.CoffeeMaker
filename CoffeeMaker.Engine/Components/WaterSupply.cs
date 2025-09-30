@@ -4,6 +4,8 @@ public class WaterSupply
 {
     public string Pump(int waterInMl)
     {
-        return string.Empty;
+        ArgumentOutOfRangeException.ThrowIfNegativeOrZero(waterInMl);
+        
+        return $"Pumping {waterInMl}ml of water";
     }
 }

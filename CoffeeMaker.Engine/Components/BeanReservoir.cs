@@ -6,9 +6,16 @@ public class BeanReservoir
     
     private int _currentLevelInGrams = CapacityInGrams;
     
-    
     public IEnumerable<Bean> Take(int grams)
     {
-        return [];
+        ArgumentOutOfRangeException.ThrowIfZero(grams, nameof(grams));
+        ArgumentOutOfRangeException.ThrowIfGreaterThan(grams, CapacityInGrams, nameof(grams));
+
+        if (_currentLevelInGrams < grams)
+            throw new InvalidOperationException();
+        
+        _currentLevelInGrams -= grams;
+        
+        return Enumerable.Repeat(new Bean(), grams);
     }
 }
